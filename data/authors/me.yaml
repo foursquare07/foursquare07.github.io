@@ -5,39 +5,36 @@ name:
   display: Fangzheng Liang
   given: Fangzheng
   family: Liang
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
 status:
-  icon: "☕️"
-role: PhD student in Economics
+  icon: "🍷"
+role: PhD Student in Economics
 bio: |
-I am a PhD student in Economics based in Hong Kong, specializing in Labor Economics and Public Policy Evaluation. My research focuses on labor market dynamics and microeconometric analysis.
-
+  I am a PhD Student in Economics specializing in Labor Economics and Public Policy Evaluation. My research focuses on labor market dynamics and microeconometric analysis.
 affiliations:
   - name: City University of Hong Kong
     url: https://www.cb.cityu.edu.hk/ef/
-
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:fangzheng.liang@example.com
     label: E-mail Me
   - icon: brands/x
     url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/foursquare07
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/example/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
+    url: https://orcid.org/
 interests:
+  - Labor Economics
+  - Public Policy Evaluation
   - Wine Tasting
   - Coffee Tasting
-  
-
 education:
   - degree: PhD in Economics
     institution: City University of Hong Kong
@@ -51,7 +48,6 @@ education:
     institution: University of Macau
     start: 2019
     end: 2023
-
 languages:
   - name: Cantonese
     label: Native
@@ -59,4 +55,3 @@ languages:
     label: Native
   - name: English
     label: Fluent
-
