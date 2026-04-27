@@ -61,9 +61,15 @@ This is a curated collection of wines I have encountered. The ratings reflect pe
 | **Bollinger** La Grande Année | 2014 | $1,100 | ★★★★☆ |
 
 ---
-**Rating Scale:**
-* ★★★★★ : Exceptional masterpiece.
-* ★★★★☆ : Excellent complexity and pleasure.
-**Rating Scale:**
-* ★★★★★ : Exceptional; a memorable masterpiece.
-* ★★★★☆ : Excellent; high complexity and pleasure.
+---
+
+### **Rating Scale**
+
+* **★★★★★ (Exceptional)** A benchmark wine and a profound emotional experience. Possesses seamless balance, immense complexity, and extraordinary aging potential.
+* **★★★★☆ (Outstanding)** Excellent quality with a clear sense of place (*terroir*). A wine that commands attention and over-delivers on both complexity and pleasure.
+* **★★★☆☆ (Good)** **Above Average.** A well-made, enjoyable wine that shows good typicity and character. Reliable, satisfying, and balanced.
+* **★★☆☆☆ (Average)** **Standard / Mediocre.** A straightforward wine that is correctly made but forgettable. Lacks the depth, length, or character to stand out.
+* **★☆☆☆☆ (Below Average)** **Disappointing.** Lacks balance, shows poor integration, or is simply uninspiring. A wine that fails to meet expectations for its category.
+* **NR / Flawed** **Not Rated.** Used for bottles with technical flaws such as cork taint (TCA), heavy oxidation, or maderization.
+
+---
