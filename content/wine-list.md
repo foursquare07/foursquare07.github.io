@@ -6,38 +6,64 @@ type: book
 ---
 
 <style>
-  /* 扩大页面主容器，让表格有更多空间 */
+  /* 让主容器居中且限制宽度，看起来更像精致的菜单 */
   .universal-wrapper {
-    max-width: 1200px !important;
+    max-width: 850px !important;
+    margin: 0 auto !important;
+    padding: 0 20px;
   }
-  /* 强制表格宽度为100% */
+
+  /* 表格美化 */
   table {
     width: 100% !important;
-    display: table !important;
-    table-layout: auto !important;
+    margin-top: 40px !important;
+    border-collapse: collapse !important;
+    font-family: "Georgia", serif; /* 使用更有质感的衬线字体 */
   }
-  /* 强制第一列（酒名）不换行，并加粗 */
+
+  th {
+    border-bottom: 2px solid #333 !important;
+    padding-bottom: 10px !important;
+    text-align: left !important;
+  }
+
+  td {
+    padding: 15px 0 !important;
+    border-bottom: 1px solid #eee !important;
+  }
+
+  /* 名字加粗 */
   td:first-child {
-    white-space: nowrap !important;
     font-weight: bold;
-    min-width: 250px;
+    color: #2c3e50;
   }
-  /* 调整评分列的宽度 */
-  td:last-child {
-    white-space: nowrap !important;
+
+  /* 居中年份和价格列 */
+  td:nth-child(2), td:nth-child(3), 
+  th:nth-child(2), th:nth-child(3) {
+    text-align: center !important;
+  }
+
+  /* 评分列居右 */
+  td:last-child, th:last-child {
+    text-align: right !important;
   }
 </style>
 
-This is a curated collection of wines I have encountered. The ratings are purely personal and reflect my subjective enjoyment.
+This is a curated collection of wines I have encountered. The ratings reflect personal enjoyment.
 
-| Producer & Wine | Vintage | Tasting Notes | Price (HKD) | Rating |
-| :--- | :---: | :--- | :---: | :---: |
-| **Domaine Prieuré Roch** NSG 1er Cru "Clos des Argillières" | 2017 | Energetic red fruit with signature spice; savory and long. | $3,500 | ★★★★☆ |
-| **Michel Niellon** Chassagne-Montrachet | 2018 | Elegant structure, white peach, and a hint of toasted hazelnut. | $1,200 | ★★★★☆ |
-| **Château Lynch-Bages** Pauillac | 2010 | Powerful tannins, blackcurrant, and classic cedar notes. | $1,600 | ★★★★★ |
-| **Egon Müller** Scharzhofberger Riesling | 2020 | Remarkable purity; crystalline acidity and slate minerals. | $1,800 | ★★★★☆ |
+| Producer & Wine | Vintage | Price (HKD) | Rating |
+| :--- | :---: | :---: | ---: |
+| **Domaine Prieuré Roch** NSG 1er Cru "Clos des Argillières" | 2017 | $3,500 | ★★★★☆ |
+| **Michel Niellon** Chassagne-Montrachet | 2018 | $1,200 | ★★★★☆ |
+| **Château Lynch-Bages** Pauillac | 2010 | $1,600 | ★★★★★ |
+| **Egon Müller** Scharzhofberger Riesling | 2020 | $1,800 | ★★★★☆ |
+| **Bollinger** La Grande Année | 2014 | $1,100 | ★★★★☆ |
 
 ---
+**Rating Scale:**
+* ★★★★★ : Exceptional masterpiece.
+* ★★★★☆ : Excellent complexity and pleasure.
 **Rating Scale:**
 * ★★★★★ : Exceptional; a memorable masterpiece.
 * ★★★★☆ : Excellent; high complexity and pleasure.
